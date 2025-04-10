@@ -1,3 +1,5 @@
+package MATH_DSA;
+
 public class MathOfDsa {
     public static void main(String[] args) {
         AnyBaseToDec(101010,10);
