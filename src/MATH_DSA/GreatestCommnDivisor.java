@@ -4,6 +4,7 @@ public class GreatestCommnDivisor {
     public static void main(String[] args) {
    gcd(24,36);
    euclidian(24,36);
+   euclidianefficient(24,36);
     }
     //MAthematics approach
     public static void gcd(int num1,int num2){
@@ -25,6 +26,24 @@ public class GreatestCommnDivisor {
                 num1 -= num2;
             }else {
                 num2 -= num1;
+            }
+        }
+        int res = num1;
+        if(num1 == 0) {
+            res = num2;
+        }
+
+        System.out.println("GCD is " + res);
+
+    }
+
+    //efficient gcd
+    public static void euclidianefficient(int num1,int num2){
+        while ((num1!=0 && num2!=0)){
+            if(num1>num2){
+                num1 %= num2;
+            }else {
+                num2 %= num1;
             }
         }
         int res = num1;
