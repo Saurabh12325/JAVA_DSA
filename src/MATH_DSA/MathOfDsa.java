@@ -52,7 +52,8 @@ public class MathOfDsa {
         if(num == 0){
             System.out.print(1);
         }
-        int x = (int)((int)Math.log(num)/Math.log(10)) +1;
+//        int x = (int)((int)Math.log(num)/Math.log(10)) +1;
+       int x = (int)Math.log10(num)+1;
         System.out.println(x);
    }
 
