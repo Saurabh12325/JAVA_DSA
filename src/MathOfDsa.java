@@ -1,8 +1,9 @@
 public class MathOfDsa {
     public static void main(String[] args) {
-        AnyBaseToDec(221,473);
+        AnyBaseToDec(101010,10);
         AnyBaseTObinary(25,3);
         fastExponential(2,3);
+        countdigit(2500);
     }
 
     public static  void AnyBaseToDec(int binaryNum ,int base){
@@ -42,5 +43,15 @@ public class MathOfDsa {
         }
         System.out.println(res);
     }
+
+
+    //digit counter using the log function
+   public static void countdigit(int num){
+        if(num == 0){
+            System.out.print(1);
+        }
+        int x = (int)((int)Math.log(num)/Math.log(10)) +1;
+        System.out.println(x);
+   }
 
 }
