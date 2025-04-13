@@ -28,4 +28,5 @@ public class ClearMSB_LSb {
     public static int clearMSBExclusive(int num,int bit){
         return num & ((1<<bit+1)-1);
     }
+
 }
