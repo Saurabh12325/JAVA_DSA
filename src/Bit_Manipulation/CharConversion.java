@@ -15,4 +15,5 @@ public class CharConversion {
     public static char charconversionToLowerCase(int num){
         return (char) (num |(1<<5)) ;                                       //here we using the concept of the setIthbit
     }
+
 }
