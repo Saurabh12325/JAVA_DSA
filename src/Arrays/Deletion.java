@@ -13,6 +13,8 @@ public class Deletion {
             arr[i] = sc.nextInt();
         }
         printArray(arr);
+        deletion(arr,2);
+        printArray(arr);
 
     }
     public static void printArray(int arr[]){
@@ -22,5 +24,10 @@ public class Deletion {
         System.out.println();
     }
     //deletion logic in the array
-
+public static void deletion(int arr[],int pos){
+        for(int i = pos;i<arr.length-1;i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[arr.length-1] = 0;
+}
 }
