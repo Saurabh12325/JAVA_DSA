@@ -3,8 +3,8 @@ package Arrays.LinearSearch;
 public class linearSeach {
     public static void main(String[] args)  {
         int arr[] = {2,2,1,5,6,8,2};
-       linearSearch(arr,2,false);
-        linearSearch(arr,2,true);
+       linearSearch(arr,2,false);  //first occurence
+        linearSearch(arr,2,true); //last occurence
     }
     public static void linearSearch(int arr[] ,int target,boolean findlast){
         int ans = -1;
