@@ -2,7 +2,7 @@ package MATH_DSA;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        prime(5);
+        prime(100);
     }
     public static void prime(int num){
         int counter = 2;

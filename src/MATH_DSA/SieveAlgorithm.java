@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SieveAlgorithm {
     public static void main(String[] args) {
-           SieveAlgo(10);
+           SieveAlgo(100);
     }
     public static void SieveAlgo(int num){
         boolean arr[] = new  boolean[num+1];
@@ -19,6 +19,7 @@ public class SieveAlgorithm {
             counter++;
         }
         //print arr
+
         for(int i = 2; i<= num;i++){
             System.out.println(i + "is" + arr[i]);
         }
