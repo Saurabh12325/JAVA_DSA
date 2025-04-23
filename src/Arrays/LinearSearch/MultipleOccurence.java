@@ -3,7 +3,8 @@ package Arrays.LinearSearch;
 public class MultipleOccurence {
     public static void main(String[] args) {
        int arr[] = {2,4,2,8,9,9,2};
-       multipleoccurence(arr,10);
+       multipleoccurence(arr,9);
+
     }
     public static void multipleoccurence(int arr[],int target){
         int ans[] = new int[arr.length];
