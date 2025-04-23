@@ -9,7 +9,7 @@ public class FirstOccurence_LastOccurence {
         res[0] = first;
         res[1] = last;
       for (int i = 0;i< res.length;i++){
-          System.out.print("["+ res[i] + "]");
+          System.out.print("["+ res[i] +"]");
       }
     }
     public static int binarySearch(int arr[] ,int target,boolean getPosition) {
