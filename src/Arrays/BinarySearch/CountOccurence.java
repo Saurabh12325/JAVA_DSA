@@ -17,7 +17,7 @@ public class CountOccurence {
         int first = 0;
         int last  = arr.length-1;
         int ans = -1;
-        while (first<=last){
+         while (first<=last){
             int mid = first +(last-first)/2;
             if(arr[mid] == target){
                 ans = mid;

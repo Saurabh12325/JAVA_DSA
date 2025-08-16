@@ -32,7 +32,7 @@ public class MinAbsoluteDifference {
                 int ans1 = Math.abs(target - arr[first]);
                 int ans2 = Math.abs(target - arr[last]);
                 res = ans1>ans2?ans1:ans2;
-            }
+            } 
         }
         System.out.println("Minimum Absolute Difference is " + res);
     }
