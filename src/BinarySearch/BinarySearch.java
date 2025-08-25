@@ -1,4 +1,4 @@
-package AllocationOfNoOfPages;
+package BinarySearch;
 
 public class BinarySearch {
 
