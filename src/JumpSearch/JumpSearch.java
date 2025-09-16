@@ -25,5 +25,11 @@ public class JumpSearch {
             }
         }
         int res = -1;
+        for(int i = 0 ; i<=startIndex;i++){
+            if(target==arr[i]){
+                res = i;
+            }
+        }
+        return res;
     }
 }
